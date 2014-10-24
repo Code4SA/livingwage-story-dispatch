@@ -1,0 +1,24 @@
+{
+  "name": "Fred",
+  "version": "0.0.1",
+  "description": "Templates for Code4SA",
+  "authors": [
+    "Jason Norwood-Young",
+    "Greg Kempe"
+  ],
+  "license": "MIT",
+  "homepage": "http://code4sa.org",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "flatly-less": "~2.3.2",
+    "jquery": "~2.1.1",
+    "less-elements": "*",
+    "font-awesome": "~4.2.0"
+  }
+}

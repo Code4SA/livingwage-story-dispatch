@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "Fred's Asset Compilation"
+
+lessc public/assets/css/style.less public/assets/css/style.css
+
+echo "Done!"
