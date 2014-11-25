@@ -3,22 +3,118 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Fred</title>
+	<title>Under a Living Wage</title>
 	<link rel="stylesheet" href="/public/css/style.css">
+	<link rel="stylesheet" href="/public/font-awesome/css/font-awesome.min.css">
+	<!-- Load c3.css -->
+	<link href="/public/c3/c3.css" rel="stylesheet" type="text/css">
 </head>
 <body class="code4sa">
-	<div id="branding" class="container">
-		<img id="logo" src="/public/images/logo_nomap.png" alt="Code for South Africa" />
-		<h1>Fred</h1>
-		<p>A Template for Code for South Africa</p>	
-	</div>
-
-	<div id="content" class="container">
-		Some content here
+	<div id="branding_container" class="fullscreen">
+		<div id="branding" class="container">
+			<img id="logo" src="/public/images/logo_nomap.png" alt="Code for South Africa" />
+			<div class="menu">
+				<h1>Under a Living Wage</h1>
+				<p>Millions of South Africans don't have enough food to feed themselves, school their children, or get to work. Yet they work in our homes.</p>
+				<p><a href="primrose.html" class="btn btn-primary">Primrose's Story</a></p>
+				<p><a href="#" class="btn btn-primary">Julia's Story</a></p>
+				<p><a href="#" class="btn btn-primary">The Domestic Worker Minimum Wage Lie</a></p>
+				<div class="arrows">
+					<div class="arrow">
+						<a href="primrose.html"><i class="fa fa-chevron-right"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<footer>
-		In proud partnership with <img id="partner_logo" src="/public/images/citypress.png" alt="Partner" />	
+		Produced by Code4SA | Credits
 	</footer>
 	
+
+	<!-- Load d3.js and c3.js -->
+	<script src="/public/d3/d3.min.js" charset="utf-8"></script>
+	<script src="/public/c3/c3.min.js"></script>
+	<script>
+	var chart1 = c3.generate({
+		bindto: '#chart2',
+		data: {
+			columns: [
+				['data1', 30, 200, 100, 400, 150, 250],
+				['data2', 50, 20, 10, 40, 15, 25]
+			],
+			type: 'pie'
+		}
+	});
+
+	var chart3 = c3.generate({
+		bindto: '#chart3',
+		data: {
+			columns: [
+				['data1', 30, 200, 100, 400, 150, 250],
+				['data2', 50, 20, 10, 40, 15, 25]
+			],
+			type: 'pie'
+		}
+	});
+
+	var chart4 = c3.generate({
+		bindto: '#chart4',
+		data: {
+			columns: [
+				['data1', 30, 200, 100, 400, 150, 250],
+				['data2', 50, 20, 10, 40, 15, 25]
+			],
+			type: 'pie'
+		}
+	});
+
+	var chart5 = c3.generate({
+		bindto: '#chart5',
+		data: {
+			columns: [
+				['data1', 30, 200, 100, 400, 150, 250],
+				['data2', 50, 20, 10, 40, 15, 25]
+			],
+			type: 'pie'
+		}
+	});
+
+	var chart6 = c3.generate({
+		bindto: '#chart6',
+		data: {
+			columns: [
+				['data1', 30, 200, 100, 400, 150, 250],
+				['data2', 50, 20, 10, 40, 15, 25]
+			],
+			type: 'pie'
+		}
+	});
+
+	var chart7 = c3.generate({
+		bindto: '#chart7',
+		data: {
+			columns: [
+				['data1', 30, 200, 100, 400, 150, 250],
+				['data2', 50, 20, 10, 40, 15, 25]
+			],
+			type: 'pie'
+		}
+	});
+	
+	var chart2 = c3.generate({
+		bindto: '#chart1',
+		data: {
+			columns: [
+				['data1', 30, 200, 100, 400, 150, 250],
+				['data2', 50, 20, 10, 40, 15, 25]
+			],
+			types: {
+				data1: 'area',
+				data2: 'area-spline'
+			}
+		}
+	});
+	</script>
 </body>
 </html>
