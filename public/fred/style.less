@@ -5,6 +5,7 @@
 	@import "mixins.less";
 
 	margin: 0;
+	height: 100%;
 	// margin-top: -20px;
 	font-family: @baseFontFamily;
 	font-size: @baseFontSize;
@@ -82,12 +83,16 @@
 	.fullscreen {
 		width: 100vw;
 		height: 100vh;
+
+		.arrows {
+			top: 70%;
+		}
 	}
 
 	#branding_container {
 
 		min-height: 80vh;
-		background-image: url(/assets/images/primrose8.png);
+		background-image: url(/assets/images/primrose8.jpg);
 		background-repeat: no-repeat;
 		background-color: #444;
 		background-position: 50% 0;
@@ -155,7 +160,11 @@
 	}
 
 	.body {
-		// padding: 40px 0px 40px 0px;
+		padding: 40px 0px;
+		
+		.col-md-12 {
+			margin-bottom: 50px;
+		}
 	}
 	
 	.img_container {
@@ -196,17 +205,17 @@
 		
 	}
 
-	#img_container_1 {
-		background-image: url(/assets/images/primrose1.png);
-	}
+	// #img_container_1 {
+	// 	background-image: url(/assets/images/primrose1.png);
+	// }
 
-	#img_container_2 {
-		background-image: url(/assets/images/primrose16.png);
-	}
+	// #img_container_2 {
+	// 	background-image: url(/assets/images/primrose16.png);
+	// }
 
-	#img_container_3 {
-		background-image: url(/assets/images/primrose5.png);
-	}
+	// #img_container_3 {
+	// 	background-image: url(/assets/images/primrose5.png);
+	// }
 
 	.arrows {
 		margin-right: 20px;
