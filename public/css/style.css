@@ -1,6 +1,8 @@
 .code4sa {
   /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
   margin: 0;
+  margin-left: 5px;
+  margin-right: 5px;
   height: 100%;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
