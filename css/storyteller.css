@@ -92,21 +92,6 @@ a:link, a:hover, a:visited, a:active
   -moz-box-shadow: none;
   box-shadow: none;
 }
-.navbar-toggle
-{
-  margin:2px 0px;
-  border-radius:none !important;
-  -webkit-border-radius: 0 !important;
-  border:none !important;  
-}
-.navbar-toggle:hover,.navbar-toggle:focus
-{
-  background-color:transparent !important;
-}
-.navbar-toggle:hover .icon-bar
-{
-  background-color:#121212 !important;   
-}
 
 .navbar-story .container-fluid,.navbar-story .container-fluid .navbar-collapse {
   min-height: 40px;
@@ -243,36 +228,10 @@ i.xs
   line-height:20px;
   padding:0px;
 }
-.navbar > .nav > li > a
-{
-  padding:0px;
-  font-family:opensans-l;
-  font-size:14px;
 
-}
-
-.navbar.navbar-story,.navbar-header
-{
-  min-height:40px;
-}
-.navbar-header .navbar-toggle
-{
-  margin:2px 0px;
-  border-radius:none !important;
-  -webkit-border-radius: 0 !important;
-}
-.nav > li > a
-{
-   padding:0px 15px;
-}
 .nav > li > a:hover
 {
   background-color:transparent !important;
-}
-.nav > li
-{
-  float:left;    
-    vertical-align:middle;
 }
 .navbar-form
 {
@@ -373,10 +332,6 @@ html, body
 }
 
 
-.container > ul.nav  {
-  line-height: 20px;
-}
-
 .nav > li > a {
   font-family: dejavusans-el;
   font-size: 18px;
@@ -385,13 +340,6 @@ html, body
 {
   right: -25px;
   top:100%;
-}
-.container > .navbar-header,
-.container-fluid > .navbar-header,
-.container > .navbar-collapse,
-.container-fluid > .navbar-collapse {
-  margin-right: 0px;
-  margin-left: 0px;
 }
 
 /* Bootstrap overrides End */
