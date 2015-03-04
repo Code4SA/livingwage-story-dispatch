@@ -175,6 +175,7 @@ a:link, a:hover, a:visited, a:active
   color:#333;
   background-color:transparent;
   float:right;
+  margin-top: 5px;
 }
 .powered-by a
 {
