@@ -56,7 +56,6 @@ defer(function() {
     }
 
     function clicked(d, i) {
-        // console.log(d); console.log(i);
         d3.event.preventDefault();
         d3.transition().duration(750).tween("scroll", function() {
             var offset = d3.interpolateNumber(pageYOffset,
